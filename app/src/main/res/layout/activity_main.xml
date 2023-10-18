@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/vivek" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:text="
+            On Android, you get to decide when and if your data is shared,
+            such as your Web and app activity or Location History. If an app accesses your location while you're not using it,
+            you’ll get a notification. And if you ever want to change permissions, all your privacy settings are in one place.
+            It’s privacy, with you in the driving seat.When a device goes from just working to actually making life easier,
+            Android is behind it. It’s the
+            reason that your GPS avoids traffic, your watch can text and your Assistant can answer questions. It’s the
+            operating system inside 2.5 billion active devices. From 5G phones to stunning tablets, Android powers them all.
+            When you have Android, you have security that’s there right out of the box and never stops working.
+            Google Play Protect scans all your apps, the software gets regular security updates and the platform is always
+            improving. It’s like a security guard that never takes a break, a nap or a holiday."
+             />
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/vivek" />
+
+
+</LinearLayout>
